@@ -1,6 +1,6 @@
 {
     "name": "juststeveking/laravel-redoc",
-    "description": "A simple API documentation package for Laravel using OpenAPI and Redoc",
+    "description": "A simple API documentation package for Laravel using OpenAPI and Redoc, this fork is ported to php 7.4",
     "keywords": [
         "laravel",
         "api",
@@ -36,11 +36,11 @@
         }
     },
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^10.0|^11.0"
+        "php": "^7.4",
+        "illuminate/support": "^8.83"
     },
     "require-dev": {
-        "orchestra/testbench": "^8.0",
+        "orchestra/testbench": "^6.17.0",
         "phpunit/phpunit": "^9.5"
     },
     "extra": {
